@@ -3,7 +3,7 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * Describe responsibilities here.xxxx
  *
  * @author      your name goes here
  * @version     1.00
