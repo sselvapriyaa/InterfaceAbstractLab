@@ -9,12 +9,12 @@ package lab1;
  *
  * @author Gladwin
  */
-public abstract class JavaProgramming {
-    String courseName;
-    String courseNumber;
-    double credits;
+public abstract class ProgrammingCourse {
+    private String courseName;
+    private String courseNumber;
+    private double credits;
     
-    String prerequisites;
+    //String prerequisites;
 
  public abstract void setCourseNumber(String courseNumber);
  public abstract void setCredits(double credits);

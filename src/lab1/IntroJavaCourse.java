@@ -6,8 +6,12 @@ package lab1;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroJavaCourse extends JavaProgramming {
+public class IntroJavaCourse extends ProgrammingCourse {
     
+private String courseName;
+private String courseNumber;
+private double credits;
+private String prerequisites;
 
     public IntroJavaCourse(String courseName, String courseNumber) {
         this.courseName = courseName;
