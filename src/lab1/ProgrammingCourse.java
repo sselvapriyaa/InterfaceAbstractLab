@@ -13,10 +13,25 @@ public abstract class ProgrammingCourse {
     private String courseName;
     private String courseNumber;
     private double credits;
+    private String prerequisites;
     
-    //String prerequisites;
-
- public abstract void setCourseNumber(String courseNumber);
- public abstract void setCredits(double credits);
- public abstract void setCourseName(String courseName);
+     public abstract String getCourseName();
+    public abstract void setCourseName();
+    public abstract String getCourseNumber();
+    public abstract String setCourseNumber();
+    public abstract double getCredits();
+    public abstract void setCredits();
+    public abstract String getprerequisites();
+    public abstract String setprerequisites();
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
 }
